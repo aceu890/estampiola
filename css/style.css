@@ -93,7 +93,8 @@ nav{
 	text-decoration: none;
 }
 .menu-horizontal > li:hover{
-  background-color: #143D59;
+  /* background-color: #143D59; */
+  background-color: #4b0081;
 }
 .menu-vertical{
 	position: absolute;
@@ -106,7 +107,7 @@ nav{
 	display: block;
 }
 .menu-vertical li:hover{
-	background-color: #F4B41A;
+	background-color: #6d00a1;
 }
 
 .menu-vertical li a{
@@ -274,10 +275,11 @@ h2 {
 }
 
 .swiper-slide-active .text-content .read-btn:hover{
-  background-color: rgb(43, 43, 43);
-  color: gold;
+  background-color: #4b0081;
+  font-weight: bolder;
+  color: white;
   transition: 0.3s ease;
-  border: 1px solid gold;
+  /* border: 1px solid gold; */
 }
 
 .swiper-slide .text-content .read-btn i{
