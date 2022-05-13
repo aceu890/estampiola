@@ -62,7 +62,6 @@ p {
 
 /* START NAVBAR==================================================================== */
 
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
 	margin: 0;
@@ -86,6 +85,21 @@ nav{
 	display: flex;
 	justify-content: space-around;
 }
+
+/* @media (max-width: 480px) {
+  .menu-horizontal {
+      flex-direction: column;
+  }
+  nav {
+    margin-top: 0;
+  }
+  .menu-vertical {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+} */
+
 .menu-horizontal > li > a{
 	display: block;
 	padding: 15px 20px;
