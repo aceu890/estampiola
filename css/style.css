@@ -113,7 +113,7 @@ nav{
 	display: none;
 	list-style: none;
 	width: 200px;
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, .82);
 }
 .menu-horizontal li:hover .menu-vertical{
 	display: block;
