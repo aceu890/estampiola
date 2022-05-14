@@ -79,25 +79,21 @@ nav{
 	background-color: #333;
 	font-size: 20px;
 	margin-top: 50px;
-  border-radius:15px;
+  border-radius:5px;
 }
 .menu-horizontal{
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
 }
+/* 
+@media (max-width: 480px) {
 
-/* @media (max-width: 480px) {
-  .menu-horizontal {
-      flex-direction: column;
+  .menu-vertical li a {
+  
+    padding: 0px 15px 0px 20px;
   }
-  nav {
-    margin-top: 0;
-  }
-  .menu-vertical {
-    max-width: 100%;
-    width: 100%;
-  }
+ 
   
 } */
 
@@ -110,7 +106,7 @@ nav{
 .menu-horizontal > li:hover{
   /* background-color: #143D59; */
   background-color: #4b0081;
-  border-radius:15px;
+  /* border-radius:15px; */
 }
 .menu-vertical{
 	position: absolute;
@@ -123,14 +119,14 @@ nav{
 	display: block;
 }
 .menu-vertical li:hover{
-	background-color: #6d00a1;
+  background-color: #6d00a1;
 }
 
 .menu-vertical li a{
 	display: block;
 	color: white;
 	text-decoration: none;
-	padding: 15px 15px 15px 20px;
+	padding: 5px 15px 5px 20px;
 }
 
 /* END NAVBAR==================================================================== */
