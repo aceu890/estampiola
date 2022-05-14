@@ -79,6 +79,7 @@ nav{
 	background-color: #333;
 	font-size: 20px;
 	margin-top: 50px;
+  border-radius:15px;
 }
 .menu-horizontal{
 	list-style: none;
@@ -109,6 +110,7 @@ nav{
 .menu-horizontal > li:hover{
   /* background-color: #143D59; */
   background-color: #4b0081;
+  border-radius:15px;
 }
 .menu-vertical{
 	position: absolute;
